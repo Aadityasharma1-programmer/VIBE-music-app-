@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #a7c8ed;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    font-size:15px;
+    font-weight: 500;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar nav h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+    width: 80%;
+    padding: 20px;
+}
+
+/* Top Navigation */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tabs button,
+.call-to-action {
+    padding: 10px 20px;
+    border-radius:5px;
+    border:5px;
+    cursor: pointer;
+    background:linear-gradient(to right, #466988 0%, #00f2fe 100%);
+}
+
+.call-to-action {
+    background-color: black;
+    color: rgb(5, 4, 4);
+    border-radius: 5px;
+}
+
+/* Playlist Section */
+.playlists {
+    margin-bottom: 40px;
+}
+
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.playlist h3 {
+    margin: 10px 0 5px;
+}
+
+.playlist p {
+    color: gray;
+}
+
+/* Artists Section */
+.artist-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap:45px;
+    
+    
+}
+
+.artist h3 {
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+.artist p {
+    color: gray;
+    font-size: 12px;
+}
+
+
